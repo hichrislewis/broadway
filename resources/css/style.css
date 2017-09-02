@@ -30,21 +30,27 @@ nav a {
 }
 
 /* Class Styles */
-.header, .portfolio {
+.header, .designed {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   background-repeat: no-repeat;
 }
 
-.portfolio {
+.designed {
   color: white;
   font-size: 23px;
   font-weight: bold;
 }
 
-.copyright p {
+.copyright {
   color: white;
   font-size: 11px;
-  background-color: dimgray;
 }
 
-/* Tag Styles */
+.footer {
+  background-color: dimgray;
+  text-align: left;
+}
+
+.footer a {
+  color: white;
+}
